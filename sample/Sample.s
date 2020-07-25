@@ -3,5 +3,5 @@ let _ = require( 'wgdfreader' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
