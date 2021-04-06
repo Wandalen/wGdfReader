@@ -6,8 +6,8 @@ consistency:
     hash: cccf84cdc0f8a6032c78ac3272df643e
     size: 1673
   ../.im.will.yml: &ref_1
-    hash: e745e20a4385f8684f72e3ee0d52980a
-    size: 4679
+    hash: 12803c44cde0bf88791d652258e4c2f1
+    size: 4683
 module:
   wGdfReader.out:
     about:
@@ -138,7 +138,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - ../proto/wtools/Tools.s
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wgdfreader
       exported.dir.proto.export:
         criterion:
@@ -155,9 +155,9 @@ module:
           - ../proto
           - ../proto/Integration.test.ss
           - ../proto/node_modules
+          - ../proto/node_modules/Tools
           - ../proto/node_modules/wgdfreader
           - ../proto/wtools
-          - ../proto/wtools/Tools.s
           - ../proto/wtools/abase
           - ../proto/wtools/amid
           - ../proto/wtools/atop
@@ -890,7 +890,7 @@ module:
         path: '{path::out.*=}/source/Index.s'
       npm.proto.entry:
         path:
-          - proto/wtools/Tools.s
+          - proto/node_modules/Tools
           - proto/node_modules/wgdfreader
     submodule:
       wTools:
@@ -1438,5 +1438,5 @@ module:
         hash: cccf84cdc0f8a6032c78ac3272df643e
         size: 1673
       ../.im.will.yml:
-        hash: e745e20a4385f8684f72e3ee0d52980a
-        size: 4679
+        hash: 12803c44cde0bf88791d652258e4c2f1
+        size: 4683
